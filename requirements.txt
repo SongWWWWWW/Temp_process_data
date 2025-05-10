@@ -1,0 +1,10 @@
+# /bin/bash 
+pip install -r requirements.txt
+echo "download package, done"
+
+echo "start download from $1 to $2"
+python download.py --start $1    --end $2
+echo "download data over"
+
+
+echo "upload data over"
